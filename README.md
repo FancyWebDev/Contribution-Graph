@@ -1,4 +1,4 @@
-# app
+# Contribution Graph
 
 ## Project setup
 ```

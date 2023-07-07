@@ -55,7 +55,7 @@
       </g>
     </svg>
     <div class="graph__legend">
-      <div class="legend__indicator__text">{{ locale.less }}</div>
+      <div class="graph__legend__text">{{ locale.less }}</div>
       <svg class="graph__external__legend__wrapper" :viewBox="legendViewbox"
            :height="Heatmap.LegendSquareSize">
         <g class="graph__legend__wrapper"
@@ -73,7 +73,7 @@
                 :data-item="JSON.stringify(item)"/>
         </g>
       </svg>
-      <div class="legend__indicator__text">{{ locale.more }}</div>
+      <div class="graph__legend__text">{{ locale.more }}</div>
     </div>
   </div>
 </template>
@@ -270,7 +270,7 @@ function initTip(mouseEvent: MouseEvent): void {
     }
   }
 
-  .legend__indicator__text {
+  .graph__legend__text {
     color: #767676
   }
 }
